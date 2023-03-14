@@ -146,7 +146,7 @@ export default function Home() {
             </h1>
             <h6 className="text-2xl">
               {" "}
-              رفوف أحذية من الخشب الأحمر 4 طوابق مساحة و أناقة
+              رفوف أحذية من الخشب الأحمر 5 طوابق مساحة و أناقة
             </h6>
           </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
                 id="form"
               >
                 <h1 className="text-3xl  font-bold text-center">
-                  <span className="text-emerald-500">(30% تخفيض)</span>
+                  <span className="text-emerald-500">(25% تخفيض)</span>
                   <br /> أطلب الآن واستفد من عرض شهر رمضان{" "}
                 </h1>
                 <h3 className="text-lg  text-center">
@@ -305,14 +305,14 @@ export default function Home() {
                     <div>
                       <div className="">
                         <p className=" mr-3 my-6 text-lg text-center">
-                          30% تخفيض
+                          25% تخفيض
                         </p>
                         <p className="sm:flex block text-center justify-center">
                           <span className="text-5xl text-red-500 font-bold  block sm:inline">
-                            4500 DA
+                            6500 DA
                           </span>
                           <span className=" text-lg line-through block sm:inline">
-                            6500 DA
+                            8600 DA
                           </span>
                         </p>
                       </div>
