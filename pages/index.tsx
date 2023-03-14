@@ -119,7 +119,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="facebook-domain-verification"
-          content="ynykw1m2veggq9pspm51wz52v86v1m"
+          content="3t5w8ok1g8jimvgobpkiuqonjw0n6d"
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -142,11 +142,11 @@ export default function Home() {
         <main className="w-full  mt-20 px-6">
           <div className="w-full pt-4 pb-8 text-center  z-10 mt-4">
             <h1 className="text-5xl mb-2">
-              رفوف أحذية من أجود أنواع الخشب الاحمر
+              رفوف أحذية قابلة للطي من أجود أنواع الخشب الاحمر
             </h1>
             <h6 className="text-2xl">
               {" "}
-              رفوف أحذية من الخشب الأحمر 5 طوابق مساحة و أناقة
+              رفوف أحذية قابلة للطي من الخشب الأحمر 5 طوابق مساحة و أناقة
             </h6>
           </div>
 
@@ -375,6 +375,7 @@ export default function Home() {
               ></iframe> */}
               <div className="text-right mt-0">
                 <img src="/4.webp" className="my-3" />
+                <img src="/8.jpg" className="my-3" />
                 <img src="/5.webp" className="my-3" />
                 <img src="/6.webp" className="my-3" />
                 <img src="/7.webp" className="my-3" />
