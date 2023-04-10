@@ -18,26 +18,26 @@ export default function ThankYou() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="bg-auto bg-no-repeat bg-center min-h-screen">
-        <header className="bg-white border-b fixed top-0 h-20 w-full">
+      <div className="bg-auto bg-no-repeat bg-[#151515] bg-center min-h-screen">
+        <header className="bg-white bg-[#151515] border-b fixed top-0 h-20 w-full">
           <div className="w-full flex justify-between px-3 py-3">
             <div className="py-3">
-              <img src="logo.png" className="h-8" alt="" />
+              <img src="logo-lardini.png" className="h-8" alt="" />
             </div>
             <div className="mt-3">
               <Link href="/">
-                <a className=" bg-green-500 text-white px-6 py-3 rounded-lg font-bold">
+                <a className=" bg-blue-500 text-white px-6 py-3 rounded-lg font-bold">
                   أطلبي الآن
                 </a>
               </Link>
             </div>
           </div>
         </header>
-        <main className="w-full  mt-20 px-6">
+        <main className="w-full bg-[#151515] mt-20 px-6">
           <div className="w-full pt-4 pb-8 text-center  z-10 ">
             <div className="pt-20 w-2/3 mx-auto">
-              <h1 className="text-5xl font-bold">تهانينا</h1>
-              <h6 className="text-2xl">
+              <h1 className="text-5xl font-bold text-white">تهانينا</h1>
+              <h6 className="text-2xl text-white">
                 شكرا جزيلا على ثقتكم سيتم الإتصال بكم في غضون 24 ساعة لتأكيد
                 طلبكم فالرجاء إبقاء الهاتف مفتوح{" "}
               </h6>
