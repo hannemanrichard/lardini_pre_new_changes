@@ -14,19 +14,19 @@ export default function ThankYou() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="facebook-domain-verification"
-          content="ynykw1m2veggq9pspm51wz52v86v1m"
+          content="tymt6ktp9zw6pitsh6tylaw4fi3gns"
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="bg-auto bg-no-repeat bg-[#151515] bg-center min-h-screen">
-        <header className="bg-white bg-[#151515] border-b fixed top-0 h-20 w-full">
+        <header className=" bg-[#151515] border-b border-gray-600 fixed top-0 h-20 w-full">
           <div className="w-full flex justify-between px-3 py-3">
             <div className="py-3">
               <img src="logo-lardini.png" className="h-8" alt="" />
             </div>
             <div className="mt-3">
               <Link href="/">
-                <a className=" bg-blue-500 text-white px-6 py-3 rounded-lg font-bold">
+                <a className=" bg-orange-500 text-white px-6 py-3 rounded-lg font-bold">
                   أطلبي الآن
                 </a>
               </Link>

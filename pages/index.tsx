@@ -150,7 +150,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="facebook-domain-verification"
-          content="3t5w8ok1g8jimvgobpkiuqonjw0n6d"
+          content="tymt6ktp9zw6pitsh6tylaw4fi3gns"
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -283,7 +283,7 @@ export default function Home() {
                 <form action="#" method="post">
                   <div className="p-4 border border-orange-600 rounded-lg mt-6">
                     <h3 className="text-lg mt-4 text-center text-white">
-                      قم بإختيار الموديل و المقاس المناسب لك{" "}
+                      قم بإختيار الموديل و المقاس{" "}
                     </h3>
                     <div>
                       <label className="label w-full text-right block mt-3">
@@ -378,7 +378,7 @@ export default function Home() {
                       </label>
                       <div className="grid grid-cols-6 gap-2 mt-2">
                         <div
-                          onClick={() => setSize(40)}
+                          onClick={() => setSize(39)}
                           className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
                             size === 39
                               ? "border-orange-500"
@@ -609,7 +609,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className=" text-right mt-8 mb-8">
+              <div className=" text-right mt-8 mb-20">
                 <h1 className="text-xl mb-2 text-white">:كيفية الإستلام </h1>
                 <p className="text-white">
                   طريقة بسيط جدا بعد أن تطلب المنتج سيتصل بك أحد موظفي الشركة
