@@ -25,7 +25,7 @@ export default function Home() {
   const [agentsCount, setAgentsCount] = useState(0);
   const [previewImage, setPreviewImage] = useState("05.jpg");
   const [size, setSize] = useState(40);
-  const [model, setModel] = useState(1);
+  const [model, setModel] = useState(2);
   const router = useRouter();
 
   useEffect(() => {
@@ -141,7 +141,35 @@ export default function Home() {
       }
     }
   };
+  const handleUpdateModel = (newModel: number) => {
+    setModel(newModel);
+    console.log(newModel);
+    switch (newModel) {
+      case 1:
+        setPreviewImage("04.jpg");
+        break;
+      case 2:
+        setPreviewImage("05.jpg");
+        break;
 
+      case 3:
+        setPreviewImage("06.jpg");
+        break;
+
+      case 4:
+        setPreviewImage("07.jpg");
+        break;
+
+      case 5:
+        setPreviewImage("08.jpg");
+        break;
+      default:
+        setPreviewImage("05.jpg");
+        break;
+    }
+  };
+
+  useEffect(() => console.log("updated", model), [model]);
   return (
     <>
       <Head>
@@ -242,44 +270,19 @@ export default function Home() {
                   <img src={previewImage} alt="" className="" />
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button
-                    onClick={() => {
-                      setPreviewImage("04.jpg");
-                      setModel(1);
-                    }}
-                  >
+                  <button onClick={() => handleUpdateModel(1)}>
                     <Image src="/04.jpg" width={128} height={160} />
                   </button>
-                  <button
-                    onClick={() => {
-                      setPreviewImage("05.jpg");
-                      setModel(2);
-                    }}
-                  >
+                  <button onClick={() => handleUpdateModel(2)}>
                     <Image src="/05.jpg" width={128} height={160} />
                   </button>
-                  <button
-                    onClick={() => {
-                      setPreviewImage("06.jpg");
-                      setModel(3);
-                    }}
-                  >
+                  <button onClick={() => handleUpdateModel(3)}>
                     <Image src="/06.jpg" width={128} height={160} />
                   </button>
-                  <button
-                    onClick={() => {
-                      setPreviewImage("07.jpg");
-                      setModel(4);
-                    }}
-                  >
+                  <button onClick={() => handleUpdateModel(4)}>
                     <Image src="/07.jpg" width={128} height={160} />
                   </button>
-                  <button
-                    onClick={() => {
-                      setPreviewImage("08.jpg");
-                      setModel(5);
-                    }}
-                  >
+                  <button onClick={() => handleUpdateModel(5)}>
                     <Image src="/08.jpg" width={128} height={160} />
                   </button>
                 </div>
@@ -316,7 +319,7 @@ export default function Home() {
                       </label>
                       <div className="justify-end gap-1 flex-wrap flex mt-2">
                         <div
-                          onClick={() => setModel(1)}
+                          onClick={() => handleUpdateModel(1)}
                           className={`flex cursor-pointer p-1 border-2 hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 1
                               ? "border-orange-500"
@@ -332,7 +335,7 @@ export default function Home() {
                           />
                         </div>
                         <div
-                          onClick={() => setModel(2)}
+                          onClick={() => handleUpdateModel(2)}
                           className={`flex cursor-pointer  p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 2
                               ? "border-orange-500"
@@ -348,7 +351,7 @@ export default function Home() {
                           />
                         </div>
                         <div
-                          onClick={() => setModel(3)}
+                          onClick={() => handleUpdateModel(3)}
                           className={`flex cursor-pointer p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 3
                               ? "border-orange-500"
@@ -364,7 +367,7 @@ export default function Home() {
                           />
                         </div>
                         <div
-                          onClick={() => setModel(4)}
+                          onClick={() => handleUpdateModel(4)}
                           className={`flex cursor-pointer p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 4
                               ? "border-orange-500"
@@ -380,7 +383,7 @@ export default function Home() {
                           />
                         </div>
                         <div
-                          onClick={() => setModel(5)}
+                          onClick={() => handleUpdateModel(5)}
                           className={`flex cursor-pointer p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 5
                               ? "border-orange-500"
