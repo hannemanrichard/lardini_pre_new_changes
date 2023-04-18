@@ -242,19 +242,44 @@ export default function Home() {
                   <img src={previewImage} alt="" className="" />
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button onClick={() => setPreviewImage("04.jpg")}>
+                  <button
+                    onClick={() => {
+                      setPreviewImage("04.jpg");
+                      setModel(1);
+                    }}
+                  >
                     <Image src="/04.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("05.jpg")}>
+                  <button
+                    onClick={() => {
+                      setPreviewImage("05.jpg");
+                      setModel(2);
+                    }}
+                  >
                     <Image src="/05.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("06.jpg")}>
+                  <button
+                    onClick={() => {
+                      setPreviewImage("06.jpg");
+                      setModel(3);
+                    }}
+                  >
                     <Image src="/06.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("07.jpg")}>
+                  <button
+                    onClick={() => {
+                      setPreviewImage("07.jpg");
+                      setModel(4);
+                    }}
+                  >
                     <Image src="/07.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("08.jpg")}>
+                  <button
+                    onClick={() => {
+                      setPreviewImage("08.jpg");
+                      setModel(5);
+                    }}
+                  >
                     <Image src="/08.jpg" width={128} height={160} />
                   </button>
                 </div>
