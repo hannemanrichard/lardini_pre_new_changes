@@ -225,9 +225,6 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("06.jpg")}>
                     <Image src="/06.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("07.jpg")}>
-                    <Image src="/07.jpg" width={128} height={160} />
-                  </button>
                   <button onClick={() => setPreviewImage("08.jpg")}>
                     <Image src="/08.jpg" width={128} height={160} />
                   </button>
@@ -278,9 +275,6 @@ export default function Home() {
                   </button>
                   <button onClick={() => handleUpdateModel(3)}>
                     <Image src="/06.jpg" width={128} height={160} />
-                  </button>
-                  <button onClick={() => handleUpdateModel(4)}>
-                    <Image src="/07.jpg" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(5)}>
                     <Image src="/08.jpg" width={128} height={160} />
@@ -360,22 +354,6 @@ export default function Home() {
                         >
                           <Image
                             src="/06.jpg"
-                            width={64}
-                            height={64}
-                            alt=""
-                            className="rounded-lg"
-                          />
-                        </div>
-                        <div
-                          onClick={() => handleUpdateModel(4)}
-                          className={`flex cursor-pointer p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
-                            model === 4
-                              ? "border-orange-500"
-                              : "border-gray-700"
-                          }`}
-                        >
-                          <Image
-                            src="/07.jpg"
                             width={64}
                             height={64}
                             alt=""
