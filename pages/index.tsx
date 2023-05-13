@@ -524,14 +524,14 @@ export default function Home() {
                     <div>
                       <div className="">
                         <p className=" mr-3 my-6 text-lg text-center text-white">
-                          30% تخفيض
+                          35% تخفيض
                         </p>
                         <p className="sm:flex block text-center justify-center">
                           <span className="text-5xl text-orange-500 font-bold  block sm:inline">
-                            6000 DA
+                            5400 DA
                           </span>
                           <span className=" text-white text-lg line-through block sm:inline">
-                            8600 DA
+                            8300 DA
                           </span>
                         </p>
                       </div>
