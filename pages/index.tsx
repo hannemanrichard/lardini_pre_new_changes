@@ -298,8 +298,8 @@ export default function Home() {
                 id="form"
               >
                 <h1 className="text-3xl  font-bold text-center text-white">
-                  <span className="text-orange-500">(30% تخفيض)</span>
-                  <br /> أطلب الآن واستفد من عرض شهر رمضان{" "}
+                  <span className="text-orange-500">(35% تخفيض)</span>
+                  <br /> أطلب الآن واستفد من التخفيض{" "}
                 </h1>
 
                 <form action="#" method="post">
