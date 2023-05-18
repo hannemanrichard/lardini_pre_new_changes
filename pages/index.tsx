@@ -59,12 +59,13 @@ export default function Home() {
       try {
         setIsLoading(true);
         let agentId;
-        // if (agentsCount !== 0) {
-        //   agentId = agents[Math.floor(Math.random() * agentsCount)].id;
-        // } else {
-        //   agentId = null;
-        // }
-        agentId = 23;
+        if (agentsCount !== 0) {
+          agentId = agents[Math.floor(Math.random() * agentsCount)].id;
+        } else {
+          agentId = 23;
+        }
+        //agentId = agents[Math.floor(Math.random() * 2)].id;
+        //agentId = 23;
         let productModel;
         let productColor;
         switch (model) {
@@ -225,9 +226,9 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("06.jpg")}>
                     <Image src="/06.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("08.jpg")}>
+                  {/* <button onClick={() => setPreviewImage("08.jpg")}>
                     <Image src="/08.jpg" width={128} height={160} />
-                  </button>
+                  </button> */}
                 </div>
               </div>
               <div>
@@ -276,9 +277,9 @@ export default function Home() {
                   <button onClick={() => handleUpdateModel(3)}>
                     <Image src="/06.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => handleUpdateModel(5)}>
+                  {/* <button onClick={() => handleUpdateModel(5)}>
                     <Image src="/08.jpg" width={128} height={160} />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -360,7 +361,7 @@ export default function Home() {
                             className="rounded-lg"
                           />
                         </div>
-                        <div
+                        {/* <div
                           onClick={() => handleUpdateModel(5)}
                           className={`flex cursor-pointer p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 5
@@ -375,7 +376,7 @@ export default function Home() {
                             alt=""
                             className="rounded-lg"
                           />
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div>
