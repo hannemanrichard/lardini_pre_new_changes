@@ -299,7 +299,7 @@ export default function Home() {
                 id="form"
               >
                 <h1 className="text-3xl  font-bold text-center text-white">
-                  <span className="text-orange-500">(35% تخفيض)</span>
+                  <span className="text-orange-500">(30% تخفيض)</span>
                   <br /> أطلب الآن واستفد من التخفيض{" "}
                 </h1>
 
@@ -525,14 +525,14 @@ export default function Home() {
                     <div>
                       <div className="">
                         <p className=" mr-3 my-6 text-lg text-center text-white">
-                          35% تخفيض
+                          30% تخفيض
                         </p>
                         <p className="sm:flex block text-center justify-center">
                           <span className="text-5xl text-orange-500 font-bold  block sm:inline">
-                            5400 DA
+                            5900 DA
                           </span>
                           <span className=" text-white text-lg line-through block sm:inline">
-                            8300 DA
+                            8500 DA
                           </span>
                         </p>
                       </div>
